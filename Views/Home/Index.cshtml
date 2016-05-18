@@ -1,0 +1,277 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<section id="main-slider" class="main-slider carousel slide" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner text-center">
+       
+
+            <!-- /.item -->
+            <div class="item active">
+                <img src="/images/slider.jpg" alt="Slider-image">
+                <div class="carousel-caption">
+                    <div class="pattern-overlay">
+                        <div class="container">
+                            <div class="slider-text">
+                                <h1 class="slider-title">Hamara Magazine Provides you lastest news and trends around you!</h1>
+                                <div class="btn-container">
+                                    <a class="btn">Lastest Magazines</a>
+                                    <a class="btn">Magazine of Month</a>
+                                </div><!-- /.btn-container -->
+                            </div><!-- /.slider-text -->
+                        </div><!-- /.container -->
+                    </div><!-- /.pattern-overlay -->
+                </div><!-- /.carousel-caption -->
+            </div><!-- /.item -->
+
+        
+    </div><!-- /.carousel-inner -->
+    <!-- Controls -->
+   @*<span class="left carousel-control" data-target="#main-slider" role="button" data-slide="prev">
+        <i class="fa fa-angle-left"></i>
+    </span>
+    <span class="right carousel-control" data-target="#main-slider" role="button" data-slide="next">
+        <i class="fa fa-angle-right"></i>
+    </span>*@
+</section><!-- /#main-slider -->
+<!-- Main Slider SEction End -->
+<!-- About Us Section -->
+
+<section id="testimonial" class="testimonial bg-gray">
+    <div class="section-area">
+        <div class="container">
+            <div class="sec-head-style text-center  wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s">
+                <h2 class="section-title">
+                    <span class="left-bottom"></span>
+                    <span class="right-top"></span>
+                    <span class="right-bottom"></span>
+                    LATEST MAGAZINES 2016
+                </h2>
+            </div><!-- /.sec-head-style -->
+            <div class="row">
+                <div class="container books-container">
+                    <div class="row text-center">
+                        @for (int i = 0; i < 2; i++) {
+                            <div class="col-xs-4 col-md-2 wow fadeInUp animated">
+                                <a href="/home/magzine"><img src="/magzine-assets/images/1.jpg" style="max-height:150px; max-width:190px" class="img-responsive book">January</a>
+                            </div>
+                            <div class="col-xs-4 col-md-2  wow fadeInUp animated" data-wow-delay=".2s">
+                                <a href="/home/magzine"><img src="/magzine-assets/images/1.jpg" style="max-height:150px; max-width:190px" class="img-responsive book">Febraury</a>
+                            </div>
+                            <div class="col-xs-4 col-md-2  wow fadeInUp animated" data-wow-delay=".4s">
+                                <a href="/home/magzine"><img src="/magzine-assets/images/1.jpg" style="max-height:150px; max-width:190px" class="img-responsive book">March</a>
+                            </div>
+                            <div class="col-xs-4 col-md-2 wow fadeInUp animated" data-wow-delay=".6s">
+                                <a href="/home/magzine"><img src="/magzine-assets/images/1.jpg" style="max-height:150px; max-width:190px" class="img-responsive book">April</a>
+                            </div>
+                            <div class="col-xs-4 col-md-2 wow fadeInUp animated" data-wow-delay=".8s">
+                                <a href="/home/magzine"><img src="/magzine-assets/images/1.jpg" style="max-height:150px; max-width:190px" class="img-responsive book">May</a>
+                            </div>
+                            <div class="col-xs-4 col-md-2 wow fadeInUp animated" data-wow-delay=".10s">
+                                <a href="/home/magzine"><img src="/magzine-assets/images/1.jpg" style="max-height:150px; max-width:190px" class="img-responsive book">June</a>
+                            </div>
+                            <div class="col-xs-12 shelf"></div>
+                        }
+
+                    </div>
+                </div><!-- /#testimonial-slider -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.section-area -->
+</section><!-- /#testimonial -->
+<!-- Testimonial Section End -->
+
+
+<section id="about" class="about">
+    <div class="section-area">
+        <div class="container">
+            <div id="about-us" class="about-us">
+                <div class="sec-head-style wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s">
+                    <div class="sec-head-style text-center  wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s">
+                        <h2 class="section-title" style="color:white;">
+                            <span class="left-bottom"></span>
+                            <span class="right-top"></span>
+                            <span class="right-bottom"></span>
+                            ABOUT US
+                        </h2>
+                    </div><!-- /.sec-head-style -->
+                    <h2 class="head-title text-center">We Happily Bring You the <span>HAMARA MAGAZINE</span></h2>
+
+                    <div class="section-description text-center">
+                        Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu inaptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </div><!-- /.section-description -->
+                </div><!-- /.sec-head-style -->
+                <div class="about-items wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="about-item">
+                                <div class="item-top">
+                                    <span class="item-icon">
+                                        <i class="fa fa-mobile"></i>
+                                    </span><!-- /.item-icon -->
+                                </div><!-- /.item-top -->
+
+                                <h3 class="item-title">Best Magazine</h3>
+
+                                <div class="item-description">
+                                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis odio sit amet nibh vulputate.
+                                </div>
+                            </div><!-- /.about-item -->
+                        </div><!-- /.col-md-4 -->
+                        <div class="col-sm-4">
+                            <div class="about-item">
+                                <div class="item-top">
+                                    <span class="item-icon">
+                                        <i class="fa fa-desktop"></i>
+                                    </span><!-- /.item-icon -->
+                                </div><!-- /.item-top -->
+
+                                <h3 class="item-title">Best News</h3>
+
+                                <div class="item-description">
+                                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis odio sit amet nibh vulputate.
+                                </div>
+                            </div><!-- /.about-item -->
+                        </div><!-- /.col-md-4 -->
+                        <div class="col-sm-4">
+                            <div class="about-item">
+                                <div class="item-top">
+                                    <span class="item-icon">
+                                        <i class="fa fa-tablet"></i>
+                                    </span><!-- /.item-icon -->
+                                </div><!-- /.item-top -->
+
+                                <h3 class="item-title">Unique & Elegant</h3>
+
+                                <div class="item-description">
+                                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis odio sit amet nibh vulputate.
+                                </div>
+                            </div><!-- /.about-item -->
+                        </div><!-- /.col-md-4 -->
+                    </div><!-- /.row -->
+                </div><!-- /.about-items -->
+            </div><!-- /#about-us -->
+
+        </div><!-- /.container -->
+    </div><!-- /.section-area -->
+</section><!-- /#about -->
+<!-- About Us Section -->
+<!-- Our Team Section -->
+<section id="client-logo" class="client-logo">
+    <div class="container">
+        <br /><br />
+        <div class="sec-head-style text-center  wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s">
+            <h2 class="section-title">
+                <span class="left-bottom"></span>
+                <span class="right-top"></span>
+                <span class="right-bottom"></span>
+                Happy Clients
+            </h2>
+        </div><!-- /.sec-head-style -->
+        <div class="row">
+            <div id="client-slider" class="client-slider owl-carousel owl-theme wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s">
+                @for (int i = 0; i < 15; i++) {
+                    <div class="item">
+                        <a href="#"><img class="img-responsive" src="http://placehold.it/210x110" alt="Clients Logo"></a>
+                    </div><!-- /.item -->
+                }
+            </div><!-- /#team-slider -->
+        </div>
+    </div><!-- /.container -->
+</section><!-- /#client-logo -->
+<!-- Client Logo secton End -->
+
+
+<section id="contact" class="contact">
+    <div class="contact-top">
+        <div class="section-area">
+            <div class="container">
+                <div class="sec-head-style text-center  wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s">
+                    <h2 class="section-title">
+                        <span class="left-bottom"></span>
+                        <span class="right-top"></span>
+                        <span class="right-bottom"></span>
+                        Contact Us
+                    </h2>
+                </div><!-- /.sec-head-style -->
+                <form id="contact-form" class="contact-form wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" action="#" method="post" name="contactform">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <input id="name" class="form-control sender-name" name="name" type="text" placeholder="Name*" required>
+                        </div>
+                        <div class="col-sm-4">
+                            <input id="email" class="form-control e-mail" name="email" type="email" placeholder="Email*" required>
+                        </div>
+                        <div class="col-sm-4">
+                            <input id="subject" class="form-control subject" name="subject" type="text" placeholder="Subject" required>
+                        </div>
+                    </div>
+                    <textarea id="your_message" class="form-control" name="your_message" placeholder="Message" rows="5" required></textarea>
+                    <button id="submit" class="submit-btn btn" type="submit">Send Message</button>
+                </form><!-- /#contact-form -->
+            </div><!-- /.container -->
+        </div><!-- /.section-area -->
+    </div><!-- /.contact-top -->
+
+    <div class="contact-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="address-details wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s">
+                    <div class="col-sm-4">
+                        <div class="item media">
+                            <div class="address-icon street-icon media-left">
+                                <i class="fa fa-map-marker"></i>
+                            </div><!-- /.address-icon -->
+                            <div class="media-body">
+                                <h4 class="item-title">Address</h4>
+                                <address>
+                                    121 king street Melbourne VIC 3000, Australia
+                                </address>
+                            </div><!-- /.media-body -->
+                        </div><!-- /.item -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="item media">
+                            <div class="address-icon mail-icon media-left">
+                                <i class="fa fa-envelope"></i>
+                            </div><!-- /.address-icon -->
+                            <div class="media-body">
+                                <h4 class="item-title">Email</h4>
+                                <div class="mail-address">
+                                    <a href="#">help@open.com</a>
+                                    <a href="#">contact@open.com</a>
+                                </div><!-- /.mail-address -->
+                            </div><!-- /.media-body -->
+                        </div><!-- /.item -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="item media">
+                            <div class="address-icon phone-icon media-left">
+                                <i class="fa fa-phone"></i>
+                            </div><!-- /.address-icon -->
+                            <div class="media-body">
+                                <h4 class="item-title">Phone</h4>
+                                <div class="phone-address">
+                                    <span>061 01239 45678</span>
+                                    <span>061 98762 1234</span>
+                                </div><!-- /.phone-address -->
+                            </div><!-- /.media-body -->
+                        </div><!-- /.item -->
+                    </div>
+                </div><!-- /.address-details -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.contact-bottom -->
+</section><!-- /#contact -->
+<!-- Contact Section End -->
+<!-- Google Map Section -->
+
+<section id="google-map">
+    <div class="map-container wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s">
+        <div id="googleMaps" class="google-map-container"></div>
+    </div>
+</section><!-- /#google-map-->
+<!-- Google Map Section End -->
+<!-- Footer Section -->
